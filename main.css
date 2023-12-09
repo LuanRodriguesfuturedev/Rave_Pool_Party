@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /*margem*/
+    padding: 0; /*preenchimento*/
+}
+
+body>header{
+    background-color: black;
+    padding: 18px 0;
+    color: whitesmoke;
+    border-bottom: 6px solid rgb(80, 26, 44);
+    border-top: 6px solid rgb(80, 26, 44);
+    border-left: 6px solid rgb(80, 26, 44);
+    border-right: 6px solid rgb(80, 26, 44);
+}
+
+.elemento-fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a,
+.social-links{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links li a img{
+    margin-bottom: 100px;
+    margin-top: 14px;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+.container h2{
+    padding: 4px 8px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 92%;
+}
+
+.articles article video,
+#img2{
+    width: 30%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.articles article{
+    width: 100%;
+}
+
+.articles article p{
+    margin-top: 12px;
+    color: black;
+    font-size: 26px;
+}
+
+.articles article header{
+    color: whitesmoke;
+}
+
+.articles article a{
+    background-color: rgb(80, 26, 44);
+    color: whitesmoke;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.container  li a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section h2{
+    font-size: 32px;
+    color: whitesmoke;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 140px;
+    border-bottom: 6px solid rgb(80, 26, 44);
+    border-top: 6px solid rgb(80, 26, 44);
+    border-left: 6px solid rgb(80, 26, 44);
+    border-right: 6px solid rgb(80, 26, 44);
+}
+
+.social-links img{
+    height: 32px;
+}
+
+footer{
+    background-color: black;
+    padding: 18px 0;
+    color: whitesmoke;
+    border-bottom: 6px solid rgb(80, 26, 44);
+    border-top: 6px solid rgb(80, 26, 44);
+    text-align: center;
+}
