@@ -11,8 +11,6 @@ body>header{
     font-family: 'Young Serif', serif;
     border-bottom: 6px solid rgb(80, 26, 44);
     border-top: 6px solid rgb(80, 26, 44);
-    border-left: 6px solid rgb(80, 26, 44);
-    border-right: 6px solid rgb(80, 26, 44);
 }
 
 header h1{
@@ -162,7 +160,5 @@ footer{
     color: whitesmoke;
     border-bottom: 6px solid rgb(80, 26, 44);
     border-top: 6px solid rgb(80, 26, 44);
-    border-left: 6px solid rgb(80, 26, 44);
-    border-right: 6px solid rgb(80, 26, 44);
     text-align: center;
 }
